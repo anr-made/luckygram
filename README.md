@@ -92,10 +92,7 @@ Check validity of a list of keys.
   ```json
   {
     "status": "keys",
-    "result": {
-      "valid_keys": [...],
-      "invalid_keys": [...]
-    }
+    "result": { [...], [...]}
   }
   ```
 - **400:** Missing API key.
